@@ -1,7 +1,7 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 images:
-- newTag: c8b50523
 - name: aviator-registry.kr.ncr.ntruss.com/aviator
+  newTag: c8b50523
 resources:
 - ../base
