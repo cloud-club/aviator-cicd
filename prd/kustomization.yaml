@@ -3,6 +3,6 @@ kind: Kustomization
 images:
 - newTag: a6ef23f5
 - name: aviator-registry.kr.ncr.ntruss.com/aviator
-  newTag: c8b50523
+  newTag: 0376432e
 resources:
 - ../base
