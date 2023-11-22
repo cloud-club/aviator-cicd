@@ -1,7 +1,3 @@
-configMapGenerator:
-  - files:
-      - configmap.yaml
-    name: manager-config
 resources:
 - secret.yaml
 - configmap.yaml
