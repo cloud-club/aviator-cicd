@@ -49,10 +49,3 @@ spec:
           requests:
             cpu: 10m
             memory: 64Mi
-        volumeMounts:
-          - name: config-volume
-            mountPath: /etc/operator
-      volumes:
-        - name: config-volume
-          configMap:
-            name: aviator-config
