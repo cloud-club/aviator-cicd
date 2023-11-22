@@ -4,6 +4,6 @@ images:
 - name: /
   newTag: ab6f46e0
 - name: aviator-registry.kr.ncr.ntruss.com/aviator
-  newTag: eb21f6d0
+  newTag: cb80227d
 resources:
 - ../base
