@@ -3,6 +3,6 @@ kind: Kustomization
 namespace: aviator
 images:
 - name: aviator-registry.kr.ncr.ntruss.com/aviator
-  newTag: 27ebdd185ba9a43950f274d9c4cbd2a4e6c56b93
+  newTag: de5f30e0b52f6fafef84a0201a65b6ebe987ce51
 resources:
 - ../base
