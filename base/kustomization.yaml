@@ -1,6 +1,14 @@
+namespace: aviator
+namePrefix: aviator-
 resources:
-- secret.yaml
-- configmap.yaml
 - aviator.yaml
+patches:
+- path: manager_auth_proxy_patch.yaml
+---
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
+images:
+- name: aviator-registry.kr.ncr.ntruss.com/aviator
+  newTag: 0376432e
+resources:
+- ./
