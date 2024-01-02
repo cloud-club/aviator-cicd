@@ -25,9 +25,9 @@ spec:
       securityContext:
         runAsNonRoot: true
       containers:
-        name: aviator
-        image: aviator-registry.kr.ncr.ntruss.com/aviator:latest
-        imagePullPolicy: Always
+        - name: aviator
+          image: aviator-registry.kr.ncr.ntruss.com/aviator:latest
+          imagePullPolicy: Always
       imagePullSecrets:
       - name: ncp-registry
         securityContext:
