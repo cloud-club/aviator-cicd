@@ -30,8 +30,6 @@ spec:
           imagePullPolicy: Always
       imagePullSecrets:
       - name: ncp-registry
-      securityContext:
-        allowPrivilegeEscalation: false
       resources:
         limits:
           cpu: 500m
