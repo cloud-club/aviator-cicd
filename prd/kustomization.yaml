@@ -2,12 +2,11 @@ namespace: aviator
 namePrefix: aviator-
 resources:
 - aviator.yaml
----
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 namespace: aviator
 images:
 - name: aviator-registry.kr.ncr.ntruss.com/aviator
-  newTag: df99d6ab434a097d7eb8b38a47c649144de2e159
+  newTag: ce6163691cc2cdb977eb779e2e7b37d37ad28c05
 resources:
-- ../base
+- aviator.yaml
