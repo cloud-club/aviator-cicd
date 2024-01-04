@@ -7,6 +7,6 @@ kind: Kustomization
 namespace: aviator
 images:
 - name: aviator-registry.kr.ncr.ntruss.com/aviator
-  newTag: 9a550371e8fa2a3ffdc10101f62197dba36b0628
+  newTag: a26b3118100ce8378ca4b88bddb1822343dbfc97
 resources:
 - aviator.yaml
